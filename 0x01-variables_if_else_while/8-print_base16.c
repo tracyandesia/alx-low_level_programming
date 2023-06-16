@@ -9,19 +9,12 @@
 
 int main(void)
 {
-	unsigned char a = 0;
+	int i;
 
-	for (i = 0; i < 10; i++)
-	{
-		putchar(a);
-		a++;
-	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	{
-		putchar('0' + a);
-		a++;
-	}
+	for (i = 48; i < 58; i++)
+		putchar(i);
+	for (i = 'a'; i <= 'f'; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
