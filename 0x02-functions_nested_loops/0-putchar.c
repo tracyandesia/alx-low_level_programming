@@ -1,9 +1,4 @@
 #include "main.h"
-
-
-
-
-
 /**
  * main - prints _parchar, followed by a new line
  *
