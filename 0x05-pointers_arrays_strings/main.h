@@ -4,3 +4,4 @@ int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char);
 char *_strcpy(char *dest, char *src);
+void puts_half(char *str);
