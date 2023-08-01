@@ -21,12 +21,12 @@ listint_t *find_listint_loop(listint_t *head)
 			break;
 		}
 	}
-	if (!tortoise|| !hare || !hare->next)
+	if (!tortoise || !hare || !hare->next)
 		return (NULL);
 	while (tortoise != hare)
 	{
 		tortoise = tortoise->next;
-		hare= hare->next;
+		hare = hare->next;
 	}
 	return (hare);
 }
