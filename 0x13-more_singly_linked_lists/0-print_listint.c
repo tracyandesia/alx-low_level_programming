@@ -5,14 +5,14 @@
  * @h: pointer to head of list
  * Return: number of elements
  */
-size_t print_listint(const listint_t *h)
+size_t print_listint(const listint_t *g)
 {
 	register size_t count = 0;
 
-	while (h)
+	while (g)
 	{
-		printf("%i\n", h->n);
-		h = h->next;
+		printf("%i\n", g->a);
+		g = g->next;
 		count++;
 	}
 	return (count);

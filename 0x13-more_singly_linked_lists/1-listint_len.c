@@ -6,13 +6,13 @@
  * @h: pointer to head of list
  * Return: number of elements
  */
-size_t listint_len(const listint_t *h)
+size_t listint_len(const listint_t *g)
 {
 	register size_t count = 0;
 
-	while (h)
+	while (g)
 	{
-		h = h->next;
+		g = g->next;
 		count++;
 	}
 	return (count);
