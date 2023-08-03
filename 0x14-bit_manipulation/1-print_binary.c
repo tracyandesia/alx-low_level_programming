@@ -25,7 +25,7 @@ unsigned long int powX(int b, int p)
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int test = powX(2, sizeof(unsigned long int) * BIT_SIZE -1);
+	unsigned long int test = powX(2, sizeof(unsigned long int) * BIT_SIZE - 1);
 	int start = 0;
 
 	if (n == 0)
