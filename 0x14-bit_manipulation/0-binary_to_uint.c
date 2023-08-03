@@ -39,7 +39,7 @@ int _len(const char *s)
  * @b: input string
  * Return: unsigned decimal conversion, 0 if input is NULL
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int power;
 	int num = 0;
@@ -59,3 +59,4 @@ unsigned int binary_to_unit(const char *b)
 	}
 	return (num);
 }
+
